@@ -17,4 +17,10 @@ public class ValueObject {
 		ValueObject that = (ValueObject) obj;
 		return this.value == that.value && this.flag == that.flag;
 	}
+
+	@Override
+	public String toString() {
+		return "ValueObject(" + value + "," + flag + ")";
+	}
+	
 }

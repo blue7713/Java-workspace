@@ -67,5 +67,8 @@ public class CompareObject {
 		else {
 			System.out.println("No, it's not equal!");
 		}
+		
+		System.out.print("v1: " + v1);
+		System.out.println(", v2: " + v2);
 	}
 }
