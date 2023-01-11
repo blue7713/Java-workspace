@@ -1,6 +1,6 @@
 package oop.inheritance;
 
-public class ValueObject {
+public class ValueObject implements Comparable<ValueObject>{
 	private int value;
 	private boolean flag;
 	
@@ -21,6 +21,27 @@ public class ValueObject {
 	@Override
 	public String toString() {
 		return "ValueObject(" + value + "," + flag + ")";
+	}
+
+	@Override
+	public int compareTo(ValueObject that) {
+		return (this.value < that.value) ? -1 : ((this.value == that.value) ? 0 : 1);
+	}
+
+	public int getValue() {
+		return value;
+	}
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+
+	public boolean isFlag() {
+		return flag;
+	}
+
+	public void setFlag(boolean flag) {
+		this.flag = flag;
 	}
 	
 }
