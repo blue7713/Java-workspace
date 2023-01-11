@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Java-workspace</name>
+=======
+	<name>eclipse-workspace</name>
+>>>>>>> branch 'main' of https://github.com/blue7713/eclipse-workspace.git
 	<comment></comment>
 	<projects>
 	</projects>

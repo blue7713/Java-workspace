@@ -8,9 +8,9 @@ public class Exercise2_3 {
 		System.out.println("금액을 입력하시오>>");
 		int money = scanner.nextInt();
 		int 오만원 = money / 50000;
-		if(오만원 > 0)
+		if(오만원 > 0) {
 			System.out.println("오만원권:" + 오만원 + "매");
-		
+		}
 		int 만원 = (money%50000) / 10000;
 		if(만원 > 0)
 			System.out.println("만원권:" + 만원 + "매");
