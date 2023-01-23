@@ -6,7 +6,8 @@ public final class TestGoodStack {
 	public static void main(String[] args) {
 		Random r = new Random();
 		
-		GoodStack<Apple> gs1 = new GoodStack<Apple>(r.nextInt(10) + 5);
+//		GoodStack<Apple> gs1 = new GoodStack<>(-1);
+		BetterStack<Apple> gs1 = new BetterStack<Apple>(-1);
 		for(int i = 0; i < 5; i++) {
 			gs1.push(new Apple(i));
 		}
@@ -23,7 +24,8 @@ public final class TestGoodStack {
 			}
 		}
 		
-		GoodStack<Orange> gs2 = new GoodStack<Orange>(r.nextInt(10) + 5);
+//		GoodStack<Orange> gs2 = new GoodStack<>(-1);
+		BetterStack<Orange> gs2 = new BetterStack<Orange>(-1);
 		for(int i = 0; i < 5; i++) {
 			gs2.push(new Orange(i));
 		}

@@ -1,6 +1,6 @@
 package oop.generic;
 
-public class Orange {
+public class Orange implements Fruit{
 	private long id;
 	
 	public Orange(long id) {
