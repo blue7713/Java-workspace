@@ -1,5 +1,7 @@
 package oop.generic;
 
-public interface Fruit {
+import java.io.Serializable;
+
+public interface Fruit extends Serializable {
 	public long getId();
 }
