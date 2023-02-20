@@ -1,7 +1,11 @@
 package Chapter09;
 
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Container;
+import java.awt.GridLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
 
 public class GridLayoutEx extends JFrame{
 	public GridLayoutEx() {
